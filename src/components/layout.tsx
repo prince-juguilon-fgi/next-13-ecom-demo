@@ -9,7 +9,7 @@ type LayoutProps = {
 export const Layout = ({ children }: LayoutProps) => {
   return (
     <>
-      <Navbar prefix="pages-dir" />
+      <Navbar prefix="/pages-dir" />
       <main className="py-16">{children}</main>
       <Footer />
     </>

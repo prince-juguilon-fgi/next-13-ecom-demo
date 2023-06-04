@@ -13,7 +13,7 @@ const ProductDetailPage = async ({ params }: ProductDetailPageProps) => {
   if (!product) return null
 
   return <Modal>
-    <ProductModal product={product} prefix="app-dir" />
+    <ProductModal product={product} prefix="/app-dir" />
   </Modal>
 };
 

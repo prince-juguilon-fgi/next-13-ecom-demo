@@ -20,7 +20,7 @@ export const ProductModal = ({ product, prefix }: ProductModalProps) => {
           />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
             <Link
-              href={`/${prefix}/${product.slug}`}
+              href={`${prefix}/${product.slug}`}
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm title-font text-blue-500 tracking-widest"

@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar prefix="app-dir" />
+        <Navbar prefix="/app-dir" />
         <main className="py-16">{children}</main>
         {modal}
         <Footer />
