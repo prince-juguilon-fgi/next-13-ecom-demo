@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "name": "Blue T-Shirt",
+    "description": "Comfortable blue t-shirt made from 100% cotton.",
+    "variants": [
+      {
+        "name": "Small",
+        "image": "[URL to image]",
+        "price": 19.99
+      },
+      {
+        "name": "Medium",
+        "image": "[URL to image]",
+        "price": 19.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 2,
+    "name": "Black Jeans",
+    "description": "Stylish black jeans with a slim fit.",
+    "variants": [
+      {
+        "name": "28W x 30L",
+        "image": "[URL to image]",
+        "price": 39.99
+      },
+      {
+        "name": "30W x 32L",
+        "image": "[URL to image]",
+        "price": 39.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 3,
+    "name": "Running Shoes",
+    "description": "Lightweight running shoes for enhanced performance.",
+    "variants": [
+      {
+        "name": "7",
+        "image": "[URL to image]",
+        "price": 79.99
+      },
+      {
+        "name": "8",
+        "image": "[URL to image]",
+        "price": 79.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 4,
+    "name": "Leather Jacket",
+    "description": "Classic black leather jacket with a zip closure.",
+    "variants": [
+      {
+        "name": "Medium",
+        "image": "[URL to image]",
+        "price": 149.99
+      },
+      {
+        "name": "Large",
+        "image": "[URL to image]",
+        "price": 149.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 5,
+    "name": "Wireless Headphones",
+    "description": "High-quality wireless headphones with noise cancellation.",
+    "variants": [
+      {
+        "name": "Black",
+        "image": "[URL to image]",
+        "price": 99.99
+      },
+      {
+        "name": "White",
+        "image": "[URL to image]",
+        "price": 99.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 6,
+    "name": "Smartphone",
+    "description": "Powerful smartphone with a large display and advanced features.",
+    "variants": [
+      {
+        "name": "64GB",
+        "image": "[URL to image]",
+        "price": 599.99
+      },
+      {
+        "name": "128GB",
+        "image": "[URL to image]",
+        "price": 699.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 7,
+    "name": "Digital Camera",
+    "description": "High-resolution digital camera with various shooting modes.",
+    "variants": [
+      {
+        "name": "Body Only",
+        "image": "[URL to image]",
+        "price": 499.99
+      },
+      {
+        "name": "With Lens",
+        "image": "[URL to image]",
+        "price": 699.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 8,
+    "name": "Fitness Tracker",
+    "description": "Smart fitness tracker with heart rate monitoring and activity tracking.",
+    "variants": [
+      {
+        "name": "Black",
+        "image": "[URL to image]",
+        "price": 49.99
+      },
+      {
+        "name": "Blue",
+        "image": "[URL to image]",
+        "price": 49.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 9,
+    "name": "Wireless Speaker",
+    "description": "Portable wireless speaker with rich sound quality.",
+    "variants": [
+      {
+        "name": "Black",
+        "image": "[URL to image]",
+        "price": 79.99
+      },
+      {
+        "name": "Red",
+        "image": "[URL to image]",
+        "price": 79.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 10,
+    "name": "Gaming Console",
+    "description": "Next-generation gaming console with immersive gaming experiences.",
+    "variants": [
+      {
+        "name": "500GB",
+        "image": "[URL to image]",
+        "price": 399.99
+      },
+      {
+        "name": "1TB",
+        "image": "[URL to image]",
+        "price": 499.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 11,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse for precise and comfortable navigation.",
+    "variants": [
+      {
+        "name": "Black",
+        "image": "[URL to image]",
+        "price": 29.99
+      },
+      {
+        "name": "Gray",
+        "image": "[URL to image]",
+        "price": 29.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 12,
+    "name": "Portable Charger",
+    "description": "High-capacity portable charger for charging devices on the go.",
+    "variants": [
+      {
+        "name": "10000mAh",
+        "image": "[URL to image]",
+        "price": 39.99
+      },
+      {
+        "name": "20000mAh",
+        "image": "[URL to image]",
+        "price": 59.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 13,
+    "name": "Wireless Earphones",
+    "description": "Sweatproof wireless earphones with long battery life.",
+    "variants": [
+      {
+        "name": "Black",
+        "image": "[URL to image]",
+        "price": 79.99
+      },
+      {
+        "name": "White",
+        "image": "[URL to image]",
+        "price": 79.99
+      }
+    ],
+    "reviews": []
+  },
+  {
+    "id": 14,
+    "name": "Smart Watch",
+    "description": "Feature-packed smartwatch for monitoring health and staying connected.",
+    "variants": [
+      {
+        "name": "Black",
+        "image": "[URL to image]",
+        "price": 149.99
+      },
+      {
+        "name": "Silver",
+        "image": "[URL to image]",
+        "price": 149.99
+      }
+    ],
+    "reviews": []
+  }
+]
