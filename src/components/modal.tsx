@@ -13,7 +13,7 @@ type ModalProps = {
   children: ReactNode;
 };
 
-export default function Modal({ children }: ModalProps) {
+export const Modal = ({ children }: ModalProps) => {
   const overlay = useRef<HTMLDivElement>(null);
   const wrapper = useRef<HTMLDivElement>(null);
   const router = useRouter();
@@ -57,4 +57,4 @@ export default function Modal({ children }: ModalProps) {
       </div>
     </div>
   );
-}
+};

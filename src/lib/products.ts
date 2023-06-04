@@ -1,6 +1,6 @@
 import products from "./products.json";
 
-export const getProducts = async (delay: number = 1000) => {
+export const getProducts = async (delay: number = 0) => {
   await new Promise((resolve) => setTimeout(resolve, delay));
   return products;
 };

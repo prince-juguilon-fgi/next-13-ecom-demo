@@ -12,14 +12,17 @@ export const metadata = {
 
 export default function RootLayout({
   children,
+  modal,
 }: {
   children: React.ReactNode;
+  modal: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body className={inter.className}>
         <Navbar prefix="app-dir" />
         <main className="py-16">{children}</main>
+        {modal}
         <Footer />
       </body>
     </html>

@@ -1,5 +1,5 @@
-import { notFound } from "next/navigation";
-import { ProductDetail } from "@/components/product-detail";
+import { Modal } from "@/components/modal";
+import { ProductModal } from "@/components/product-modal";
 import { getProductBySlug } from "@/lib/products";
 
 type ProductDetailPageProps = {
@@ -10,9 +10,11 @@ type ProductDetailPageProps = {
 
 const ProductDetailPage = async ({ params }: ProductDetailPageProps) => {
   const product = await getProductBySlug(params.productSlug);
-  if (!product) notFound();
+  if (!product) return null
 
-  return <ProductDetail product={product} />;
+  return <Modal>
+    <ProductModal product={product} />
+  </Modal>
 };
 
 export default ProductDetailPage;

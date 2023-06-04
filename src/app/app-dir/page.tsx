@@ -3,7 +3,9 @@ import { getProducts } from "@/lib/products";
 
 const Home = async () => {
   const products = await getProducts();
-  return <StoreFront products={products} prefix="/app-dir" />;
+  return <div>
+    <StoreFront products={products} prefix="/app-dir" />
+  </div>
 };
 
 export default Home;
