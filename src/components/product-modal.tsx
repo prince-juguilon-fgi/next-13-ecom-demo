@@ -8,11 +8,11 @@ type ProductModalProps = {
 
 export const ProductModal = ({ product }: ProductModalProps) => {
   return (
-    <section className="text-gray-700 body-font overflow-hidden bg-white">
+    <section className="text-gray-700 body-font overflow-hidden bg-white rounded">
       <div className="mx-auto max-w-7xl p-8">
         <div className="w-full mx-auto flex flex-wrap">
           <img
-            className="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200"
+            className="lg:w-1/2 w-full aspect-square object-cover object-center rounded border border-gray-200"
             alt={product.name}
             src={product.image}
           />

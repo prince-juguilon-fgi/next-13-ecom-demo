@@ -12,7 +12,7 @@ export const ProductDetail = ({ product }: ProductDetailProps) => {
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="w-full mx-auto flex flex-wrap">
           <img
-            className="lg:w-1/2 w-full object-cover object-center rounded border border-gray-200"
+            className="lg:w-1/2 w-full aspect-square object-cover object-center rounded border border-gray-200"
             alt={product.name}
             src={product.image}
           />
@@ -159,7 +159,7 @@ export const ProductDetail = ({ product }: ProductDetailProps) => {
                 ${product.price}
               </span>
               <button className="flex ml-auto text-white bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded">
-                Button
+                Add to cart
               </button>
               <button className="rounded-full w-10 h-10 bg-gray-200 p-0 border-0 inline-flex items-center justify-center text-gray-500 ml-4">
                 <svg
