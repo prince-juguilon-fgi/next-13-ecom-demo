@@ -2,6 +2,7 @@
   {
     "id": 1,
     "name": "Black T-Shirt",
+    "slug": "black-t-shirt",
     "description": "Comfortable blue t-shirt made from 100% cotton.",
     "image": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-01.jpg",
     "price": 19.99
@@ -9,6 +10,7 @@
   {
     "id": 2,
     "name": "Earthen Bottle",
+    "slug": "earthen-bottle",
     "description": "Stylish black jeans with a slim fit.",
     "image": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
     "price": 19.99
@@ -16,6 +18,7 @@
   {
     "id": 3,
     "name": "Nomad Tumbler",
+    "slug": "nomad-tumbler",
     "description": "Lightweight running shoes for enhanced performance.",
     "image": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
     "price": 19.99
@@ -23,6 +26,7 @@
   {
     "id": 4,
     "name": "Focus Paper Refill",
+    "slug": "focus-paper-refill",
     "description": "Classic black leather jacket with a zip closure.",
     "image": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
     "price": 19.99
@@ -30,6 +34,7 @@
   {
     "id": 5,
     "name": "Machined Mechanical Pencil",
+    "slug": "machined-mechanical-pencil",
     "description": "High-quality wireless headphones with noise cancellation.",
     "image": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
     "price": 19.99
@@ -37,6 +42,7 @@
   {
     "id": 6,
     "name": "Focus Cart Tray",
+    "slug": "focus-cart-tray",
     "description": "Powerful smartphone with a large display and advanced features.",
     "image": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-05.jpg",
     "price": 19.99
@@ -44,6 +50,7 @@
   {
     "id": 7,
     "name": "Focus Multi-Pack",
+    "slug": "focus-multi-pack",
     "description": "High-resolution digital camera with various shooting modes.",
     "image": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-06.jpg",
     "price": 19.99
@@ -51,6 +58,7 @@
   {
     "id": 8,
     "name": "Brass Scissors",
+    "slug": "brass-scissors",
     "description": "Smart fitness tracker with heart rate monitoring and activity tracking.",
     "image": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-07.jpg",
     "price": 19.99
@@ -58,6 +66,7 @@
   {
     "id": 9,
     "name": "Focus Carry Pouch",
+    "slug": "focus-carry-pouch",
     "description": "Portable wireless speaker with rich sound quality.",
     "image": "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-08.jpg",
     "price": 19.99
@@ -65,6 +74,7 @@
   {
     "id": 10,
     "name": "Aspen White Tee",
+    "slug": "aspen-white-tee",
     "description": "Next-generation gaming console with immersive gaming experiences.",
     "image": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-02.jpg",
     "price": 19.99
@@ -72,6 +82,7 @@
   {
     "id": 11,
     "name": "Charcoal Tee",
+    "slug": "charcoal-tee",
     "description": "Ergonomic wireless mouse for precise and comfortable navigation.",
     "image": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-03.jpg",
     "price": 19.99
@@ -79,6 +90,7 @@
   {
     "id": 12,
     "name": "Iso Dots Tee",
+    "slug": "iso-dots-tee",
     "description": "High-capacity portable charger for charging devices on the go.",
     "image": "https://tailwindui.com/img/ecommerce-images/product-page-01-related-product-04.jpg",
     "price": 19.99

@@ -1,15 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { GetProductsResponse } from "@/lib/products";
+import Link from "next/link";
+import { type GetProductsResponse } from "@/lib/products";
 
-interface StoreFrontProps {
+type StoreFrontProps = {
   products: GetProductsResponse;
+  prefix: string;
 }
 
-export const StoreFront = ({ products }: StoreFrontProps) => {
+export const StoreFront = ({ products, prefix }: StoreFrontProps) => {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-2xl px-4 sm:px-6 py-16 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 className="text-2xl font-bold tracking-tight text-gray-900">
           Products
         </h2>
@@ -27,13 +29,13 @@ export const StoreFront = ({ products }: StoreFrontProps) => {
               <div className="mt-4 flex justify-between">
                 <div>
                   <h3 className="text-sm text-gray-700">
-                    <a href="#">
+                    <Link href={`${prefix}/${product.slug}`}>
                       <span
                         aria-hidden="true"
                         className="absolute inset-0"
                       ></span>
                       {product.name}
-                    </a>
+                    </Link>
                   </h3>
                   <p className="mt-1 text-xs text-gray-500 line-clamp-2">
                     {product.description}
