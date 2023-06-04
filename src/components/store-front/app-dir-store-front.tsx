@@ -28,7 +28,7 @@ export const StoreFront = ({ products, prefix }: StoreFrontProps) => {
             <div className="mt-4 flex justify-between">
               <div>
                 <h3 className="text-sm text-gray-700">
-                  <Link href={`${prefix}/${product.slug}`}>
+                  <Link href={`/${prefix}/${product.slug}`}>
                     <span
                       aria-hidden="true"
                       className="absolute inset-0"

@@ -41,7 +41,6 @@ export const StoreFront = ({ products, prefix }: StoreFrontProps) => {
             <div className="mt-4 flex justify-between">
               <div>
                 <h3 className="text-sm text-gray-700">
-                  {/* <button href={`${prefix}/${product.slug}`}> */}
                   <button onClick={() => setProduct(product)}>
                     <span
                       aria-hidden="true"
