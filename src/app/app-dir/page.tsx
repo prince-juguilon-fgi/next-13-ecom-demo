@@ -1,4 +1,4 @@
-import { StoreFront } from "@/components/store-front";
+import { StoreFront } from "@/components/store-front/app-dir-store-front";
 import { getProducts } from "@/lib/products";
 
 const Home = async () => {

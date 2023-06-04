@@ -1,5 +1,5 @@
 import { type InferGetServerSidePropsType } from "next";
-import { StoreFront } from "@/components/store-front";
+import { StoreFront } from "@/components/store-front/pages-dir-store-front";
 import { Layout } from "@/components/layout";
 import { getProducts } from "@/lib/products";
 

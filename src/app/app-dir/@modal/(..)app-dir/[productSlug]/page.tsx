@@ -1,4 +1,4 @@
-import { Modal } from "@/components/modal";
+import { Modal } from "@/components/modal/app-dir-modal";
 import { ProductModal } from "@/components/product-modal";
 import { getProductBySlug } from "@/lib/products";
 
@@ -13,7 +13,7 @@ const ProductDetailPage = async ({ params }: ProductDetailPageProps) => {
   if (!product) return null
 
   return <Modal>
-    <ProductModal product={product} />
+    <ProductModal product={product} prefix="app-dir" />
   </Modal>
 };
 

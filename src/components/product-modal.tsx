@@ -1,12 +1,14 @@
 /* eslint-disable @next/next/no-img-element */
 
+import Link from "next/link";
 import { type GetProductBySlugResponse } from "@/lib/products";
 
 type ProductModalProps = {
   product: NonNullable<GetProductBySlugResponse>;
+  prefix?: string;
 };
 
-export const ProductModal = ({ product }: ProductModalProps) => {
+export const ProductModal = ({ product, prefix }: ProductModalProps) => {
   return (
     <section className="text-gray-700 body-font overflow-hidden bg-white rounded">
       <div className="mx-auto max-w-7xl p-8">
@@ -17,9 +19,14 @@ export const ProductModal = ({ product }: ProductModalProps) => {
             src={product.image}
           />
           <div className="lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
-            <h2 className="text-sm title-font text-gray-500 tracking-widest">
-              This is from a modal
-            </h2>
+            <Link
+              href={`/${prefix}/${product.slug}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm title-font text-blue-500 tracking-widest"
+            >
+              Open full details
+            </Link>
             <h1 className="text-gray-900 text-3xl title-font font-medium mb-1">
               {product.name}
             </h1>
