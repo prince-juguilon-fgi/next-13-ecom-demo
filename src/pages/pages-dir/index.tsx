@@ -13,7 +13,7 @@ type HomeProps = InferGetServerSidePropsType<typeof getServerSideProps>;
 const Home = ({ products }: HomeProps) => {
   return (
     <Layout>
-      <StoreFront products={products} prefix="/app-dir" />
+      <StoreFront products={products} prefix="/pages-dir" />
     </Layout>
   );
 };
