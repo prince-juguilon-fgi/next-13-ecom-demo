@@ -1,11 +1,7 @@
-import Link from "next/link";
-
 const FeaturesPage = () => {
   return (
-    <div>
-      <Link href="/features/loading">
-        <p>Loading States</p>
-      </Link>
+    <div className="flex items-center justify-center h-full">
+      <p className="text-gray-500">Select a feature from the sidebar</p>
     </div>
   );
 };
