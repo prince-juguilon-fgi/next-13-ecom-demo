@@ -18,15 +18,15 @@ const AsyncComponent = async (props: { wait: number }) => {
 
 const SuspenseLoadingPage = () => {
   return (
-    <DashBox className="border-white">
-      <h1 className="text-center w-full">
-        With{" "}
+    <div>
+      <h4 className="text-xl font-bold">
+        With
         <span className="bg-gray-800 px-2 py-1 rounded font-mono">
           {"<Suspense />"}
         </span>
-      </h1>
+      </h4>
 
-      <section className="flex gap-4 mt-6">
+      <DashBox className="flex gap-4 mt-6 overflow-x-auto border-white">
         <div className="flex flex-col justify-between gap-4 py-2 w-1/3">
           <Suspense fallback={<DashBox>Waiting for 1000ms</DashBox>}>
             <AsyncComponent wait={1000} />
@@ -50,7 +50,7 @@ const SuspenseLoadingPage = () => {
         </div>
 
         <div className="text-base w-3/4">
-          <pre className="bg-gray-800 p-2 rounded">
+          <pre className="bg-gray-800 p-2 rounded overflow-x-auto">
             {`<Suspense fallback={<DashBox>Waiting for 1000ms</DashBox>}>
   <AsyncComponent wait={1000} />
 </Suspense>
@@ -73,8 +73,8 @@ const SuspenseLoadingPage = () => {
 `}
           </pre>
         </div>
-      </section>
-    </DashBox>
+      </DashBox>
+    </div>
   );
 };
 

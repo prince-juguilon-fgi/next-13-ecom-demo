@@ -16,7 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-gray-900 text-white overflow-hidden">
         <div className="flex h-screen">
-          <nav className="w-80 overflow-y-auto p-4 flex flex-col border-r border-gray-800 text-gray-400">
+          <nav className="w-80 overflow-y-auto p-4 flex flex-col border-r border-gray-800 text-gray-400 gap-px">
             <Link href="/features">
               <h2 className="text-white font-semibold text-lg">
                 Next 13 Features
