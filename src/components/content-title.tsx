@@ -7,7 +7,7 @@ type ContentTitleProps = {
 
 export const ContentTitle = ({ title, href }: ContentTitleProps) => {
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex items-center gap-4 justify-between">
       <h4 className="text-xl font-bold">{title}</h4>
       <Link
         href={href}

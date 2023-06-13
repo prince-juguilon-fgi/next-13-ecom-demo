@@ -12,7 +12,10 @@ const AsyncComponentsPage = () => {
         In next 13, we can already define components as async functions. Async
         components are `server` components by default. This allows us to fetch
         data without using `useEffect` when a component mounts or 3rd party
-        fetching libraries like `react-query`
+        fetching libraries like `react-query`. Async components also give us the
+        ability to use `sensitive` variables since it is executed in the server.
+        This allows us to call our API route/DB directly like how we used to do
+        in `getServerSideProps`
       </p>
 
       <p className="indent-6 mt-4 text-gray-400 border-l-4 border-gray-700 bg-gray-800 py-2">

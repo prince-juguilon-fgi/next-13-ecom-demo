@@ -16,7 +16,7 @@ export const LinkItem = ({ href, title }: LinkItemProps) => {
     <Link href={href}>
       <p
         className={`px-4 py-2 w-full rounded transition-all ${
-          isActive ? "bg-gray-800" : "hover:bg-gray-800"
+          isActive ? "bg-gray-800 text-white" : "hover:text-white"
         }`}
       >
         {title}

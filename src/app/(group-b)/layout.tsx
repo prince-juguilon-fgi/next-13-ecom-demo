@@ -14,9 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-gray-900 text-white overflow-hidden">
+      <body className="bg-gray-900 text-white overflow-hidden w-full max-w-7xl mx-auto">
         <div className="flex h-screen">
-          <nav className="w-80 overflow-y-auto p-4 flex flex-col border-r border-gray-800 text-gray-400 gap-px">
+          <nav className="w-80 overflow-y-auto px-4 flex flex-col border-r border-gray-800 text-gray-400 gap-px py-10">
             <Link href="/features">
               <h2 className="text-white font-semibold text-lg">
                 Next 13 Features
@@ -40,7 +40,7 @@ export default function RootLayout({
             <LinkItem href="/app-dir" title="App router" />
             <LinkItem href="/pages-dir" title="Pages router" />
           </nav>
-          <div className="overflow-y-auto flex-1 p-4">{children}</div>
+          <div className="overflow-y-auto flex-1 px-4 py-10">{children}</div>
         </div>
       </body>
     </html>
