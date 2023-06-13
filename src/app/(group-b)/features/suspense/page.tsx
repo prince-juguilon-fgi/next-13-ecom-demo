@@ -1,6 +1,7 @@
-import { wait } from "@/lib/utils";
-import Link from "next/link";
 import { Suspense } from "react";
+
+import { wait } from "@/lib/utils";
+import { ContentTitle } from "@/components/content-title";
 
 const DashBox = (props: { children: React.ReactNode; className?: string }) => {
   return (
@@ -20,21 +21,10 @@ const AsyncComponent = async (props: { wait: number }) => {
 const SuspenseLoadingPage = () => {
   return (
     <div>
-      <div className="flex items-center gap-4">
-        <h4 className="text-xl font-bold">
-          With
-          <span className="bg-gray-800 px-2 py-1 rounded font-mono">
-            {"<Suspense />"}
-          </span>
-        </h4>
-        <Link
-          href="https://github.com/prince-juguilon-fgi/next-13-ecom-demo/blob/main/src/app/(group-b)/features/suspense/page.tsx"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <p className="text-blue-500">View source</p>
-        </Link>
-      </div>
+      <ContentTitle
+        title="With <Suspense />"
+        href="https://github.com/prince-juguilon-fgi/next-13-ecom-demo/blob/main/src/app/(group-b)/features/suspense/page.tsx"
+      />
 
       <DashBox className="flex gap-4 mt-6 overflow-x-auto border-white">
         <div className="flex flex-col justify-between gap-4 py-2 w-1/3">
@@ -89,4 +79,3 @@ const SuspenseLoadingPage = () => {
 };
 
 export default SuspenseLoadingPage;
-
