@@ -31,14 +31,15 @@ export default function RootLayout({
             <h5 className="mt-6 uppercase text-gray-200">Loading states</h5>
             <LinkItem href="/features/loading-state" title="loading.tsx" />
             <LinkItem href="/features/suspense" title="Suspense" />
+            <LinkItem href="/features/suspense-static" title="Suspense (static)" />
             <LinkItem
               href="/features/file-conventions"
               title="File conventions"
             />
 
             <h5 className="mt-6 uppercase text-gray-200">Routing Comparison</h5>
-            <LinkItem href="/app-dir" title="App router" />
-            <LinkItem href="/pages-dir" title="Pages router" />
+            <LinkItem isExternal href="/app-dir" title="App router" />
+            <LinkItem isExternal href="/pages-dir" title="Pages router" />
           </nav>
           <div className="overflow-y-auto flex-1 px-4 py-10">{children}</div>
         </div>
