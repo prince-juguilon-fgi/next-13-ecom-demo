@@ -27,7 +27,8 @@ const SuspenseLoadingPage = () => {
       />
 
       <p className="indent-6 mt-4 text-gray-400 border-l-4 border-gray-700 bg-gray-800 py-2">
-        NOTE: This is the same code as the previous page, but without <code>`export const dynamic = "force-dynamic"`</code>
+        NOTE: This is the same code as the previous page, but without{" "}
+        <code>`export const dynamic = &quot;force-dynamic&quot;`</code>
       </p>
 
       <DashBox className="flex gap-4 mt-6 overflow-x-auto border-white">
