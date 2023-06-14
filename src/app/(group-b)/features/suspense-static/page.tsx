@@ -23,7 +23,7 @@ const SuspenseLoadingPage = () => {
     <div>
       <ContentTitle
         title="With <Suspense />"
-        href="https://github.com/prince-juguilon-fgi/next-13-ecom-demo/blob/main/src/app/(group-b)/features/suspense/page.tsx"
+        href="https://github.com/prince-juguilon-fgi/next-13-ecom-demo/blob/main/src/app/(group-b)/features/suspense-static/page.tsx"
       />
 
       <p className="indent-6 mt-4 text-gray-400 border-l-4 border-gray-700 bg-gray-800 py-2">
