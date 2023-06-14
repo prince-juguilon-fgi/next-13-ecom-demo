@@ -3,6 +3,8 @@ import { Suspense } from "react";
 import { wait } from "@/lib/utils";
 import { ContentTitle } from "@/components/content-title";
 
+export const dynamic = "force-dynamic";
+
 const DashBox = (props: { children: React.ReactNode; className?: string }) => {
   return (
     <div
