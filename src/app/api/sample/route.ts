@@ -12,19 +12,22 @@ export const POST = async (req: NextRequest) => {
 
     return NextResponse.json({
       status: 200,
+      type: "success",
       data: { foo: "bar" },
     });
   } catch (e) {
     if (e instanceof ZodError) {
       return NextResponse.json({
         status: 400,
-        data: { error: e.issues },
+        type: "zod-error",
+        error: e.issues,
       });
     }
 
     return NextResponse.json({
       status: 500,
-      data: { error: "Something went wrong" },
+      type: "error",
+      error: "Something went wrong",
     });
   }
 };
